@@ -3,8 +3,8 @@
 
 header#page-header {
   color: $secondary-color;
-  background: $primary-color;
-  padding: 5px;
+  background-image: url(header.jpg);
+  padding: 7px;
   border-bottom: 3px solid darken($primary-color, 10%);
 
    h1 {
@@ -24,4 +24,8 @@ aside#sidebar {
   float: right;
   background: $secondary-color;
   width: 200px;
+}
+
+.background_image {
+    background: image-url('background.jpg');
 }
